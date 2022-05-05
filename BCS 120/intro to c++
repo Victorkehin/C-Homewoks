@@ -1,0 +1,90 @@
+/*Anuoluwa Emmanuel
+Assignment 1
+Bcs 120*/
+
+// Question 1: Writing a complete c++ program to print 3 separate lines
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+   cout << " My name is Anuoluwa Emmanuel" << "\n";
+   cout << "My major is Computer Science" << "\n";
+    cout << "My hobbies include: Drawing, Playing instruments, workingout " << "\n";
+    return 0;
+
+   cout << "***********************************" << endl;
+
+
+
+    // Question 2: Writing my name, major and hobbies in 3 separate lines using getline(cin,variableName) from string library.
+    
+
+           string Name;  //Declaring statements using string
+           string Major;
+           string Hobbies;
+           
+          cout<<" Enter name below:"<<endl; 
+           getline(cin,Name);
+           cout<<"Name:"<<Name<<endl<<endl;
+           
+           cout<<"Enter major below:"<<endl;
+           getline(cin,Major);
+          cout<<"Major:"<<Major<<endl<<endl;
+           
+           cout<<"Enter hobbies below:"<<endl;
+           getline(cin,Hobbies);
+           cout<<"Hobbies:"<<Hobbies<<endl<<endl;
+           
+          
+          
+           
+            
+        cout<< "************************************"<<endl;
+            
+            
+        //Question 3: Calculating a formula nd print valueto the console screen
+            
+           int x;
+            int y;
+         double result,sum;
+         
+        x=100;
+         y=200;
+         sum=(x*y)% 4;
+        sum=400+sum*x;
+        result=sum;
+        cout<<"result="<<result;
+        
+        cout<<"*******************"<<endl;
+        
+        //Question 4 : 
+        //Printing the value of a,b, cout
+        
+        int a,b,c;
+        int sum;//declare variables
+        
+        a = 7;
+        b = 2;
+        
+         a=++b +5;
+         c= a+b-- +1;
+        b= (a++)-(--c);
+        
+         cout<<"a="<<a<<endl<<"b="<<b<<endl<<"c="<<c<<endl;
+         
+         return 0;
+         
+         
+         
+
+        
+         
+}
+
+
+
+
+
